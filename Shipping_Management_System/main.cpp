@@ -50,9 +50,9 @@ void trackOrderStatus(MYSQL* conn);
 void requestSupport(MYSQL* conn);
 
 // -------------------- MySQL Connection --------------------
-const string SERVER = "localhost";
+const string SERVER = "server_name";
 const string USER = "root";
-const string PASSWORD = "MySQL#7692";
+const string PASSWORD = "your_password";
 const string DATABASE = "shipping_db";
 
 MYSQL* connectDB() {
